@@ -465,9 +465,11 @@ def main(url):
               Domain_registeration_length(url),Favicon(url),port(url),HTTPS_token(url),Request_URL(url),
               URL_of_Anchor(url),Links_in_tags(url),SFH(url),Submitting_to_email(url),Abnormal_URL(url),
               Redirect(url),on_mouseover(url),RightClick(url),popUpWidnow(url),Iframe(url),
-              age_of_domain(url),DNSRecord(url),web_traffic(url),Page_Rank(url),Google_Index(url),
+              age_of_domain(url),DNSRecord(url),1,Page_Rank(url),Google_Index(url),
               Links_pointing_to_page(url),Statistical_report(url)]]
     
     
     print(check)
     return check
+
+

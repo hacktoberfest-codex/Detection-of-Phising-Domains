@@ -22,9 +22,12 @@ def y_predict():
     For rendering results on HTML GUI
     '''
     url = request.form['URL']
+    print(url)
     checkprediction = inputScript.main(url)
+    print(checkprediction)
     prediction = model.predict(checkprediction)
     print(prediction)
+    
     output=prediction[0]
     if(output==1):
         pred="Your are safe!!  This is a Legitimate Website."
